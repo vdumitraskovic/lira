@@ -23,8 +23,8 @@ $section = "onama";
                     <li><strong>   Prof.dr Nataša Todorović, </strong> vanredni profesor, uža naučna oblast:nuklearna fizika</li>
                     <li><strong>   Prof.dr Dusan Mrđa,       </strong> vanredni profesor, uža naučna oblast:nuklearna fizika</li>
                     <li><strong>   Prof.dr Tijana Prodanović,</strong> vanredni profesor, uža naučna oblast: astrofizika</li>
-                    <li><strong>   mr Sofija Forkapić,       </strong> istraživač saradnik, uža naučna oblast:nuklearna fizika, rukovodilac za kvalitet</li>
-                    <li><strong>   dr Jovana Nikolov,        </strong> istraživač saradnik, uža naučna oblast:nuklearna fizika</li>
+                    <li><strong>   dr Sofija Forkapić,       </strong> istraživač saradnik, uža naučna oblast:nuklearna fizika, rukovodilac za kvalitet</li>
+                    <li><strong>   Doc.dr Jovana Nikolov,    </strong> docent, uža naučna oblast:nuklearna fizika</li>
                     <li><strong>   MSc Kristina Bikit,       </strong> istraživač saradnik, uža naučna oblast:nuklearna fizika</li>
                     <li><strong>   MSc Jan Hansman,          </strong> tehnički saradnik</li>
                     <li><strong>   Nebojsa Krstić,           </strong> tehnički saradnik za nejonizujuće zračenje</li>
