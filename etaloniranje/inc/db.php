@@ -8,7 +8,6 @@
     
     try {
         $db = new PDO($db_connect, $db_user, $db_pass);
-        var_dump($db);
     } catch (Exception $e) {
         echo "Could not connect to the database.";
         exit;
