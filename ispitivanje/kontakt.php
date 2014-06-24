@@ -14,10 +14,10 @@ $section = "kontakt";
                 </header>
                               
                 <article class="fourteen offset-by-one columns">
-                <p><strong>Mesto laboratorije:</strong> Prirodno-matematički fakultet Univerziteta u Novom Sadu, Departman za fiziku, Katedra za nuklearnu fiziku</p>
+                <p><strong>Mesto laboratorije:</strong> Prirodno-matematički fakultet, Univerzitet u Novom Sadu, Departman za fiziku, Katedra za nuklearnu fiziku</p>
                 <p><strong>Šef Laboratorije:</strong> Prof. dr Miroslav Vesković</p>
                 <p><strong>Tehnički rukovodilac: </strong> Prof. dr Ištvan Bikit</p>
-                <p><strong>Rukovodilac za kvalitet:</strong> mr Sofija Forkapić</p>
+                <p><strong>Rukovodilac za kvalitet:</strong> dr Sofija Forkapić</p>
                 <p><strong>Adresa:</strong> 21000 Novi Sad, Trg Dositeja Obradovića broj 4</p>
                 <p><strong>Telefon:</strong> +381 21 459 368</p>
                 <p><strong>Fax:</strong> +381 21 459 367</p>

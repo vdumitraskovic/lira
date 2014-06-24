@@ -224,7 +224,7 @@ h1.title {
 
 .toggle {display: block;}
 
-#toggle:checked ~ nav #main-nav {
+#toggle:checked + nav #main-nav {
     display: block;
 }
 
