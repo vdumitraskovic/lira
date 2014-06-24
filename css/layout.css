@@ -1,0 +1,688 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+
+
+body {
+	background-color: #fff;
+    background-image: url('../img/vertical_cloth.png');
+}
+
+h2{
+    text-align: center;
+}
+
+.container {
+	background: #cdf;
+    background: linear-gradient(#cdf,#ced);
+/*    box-shadow: 0px 0px 30px #000;*/
+}
+
+.column, .columns{
+/*	background: #89c;*/
+/*
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #67a;
+*/
+}
+
+.empty::after{
+    content: '\0000a0';
+}
+
+a {
+	text-decoration: none;
+	color: #137;
+}
+
+img.title {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    margin-bottom: 1em !important;
+    display: block !important;
+    float: none !important;
+    width: 80% !important; 
+    border: 14px solid #ffffff;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.intro {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-align: justify;
+}
+
+.intro hr {
+    background:url("../img/divider.png") no-repeat center ;
+    background-size: contain;
+    height: 18px;
+    border:0;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+
+h1.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+
+/*
+.icon-hr{
+    text-align: center;
+    display: block;
+    border-top: 0.3em double #237;
+    margin-top: 1em; 
+    height: 2em;
+    color: #237;
+    text-align: center;
+    z-index: 1;   
+    zoom: 1;
+}
+
+.icon-hr:before{
+   content: "\e600";
+   display: inline-block;
+   position: relative;
+   font-size: 30px;
+   background: #cdf;
+   margin: 0;
+   top: -0.55em;
+   padding:0 0.2em;
+   zoom: 1;
+   z-index: 2;
+}
+
+.icon-hr-line{
+    width: 100%;
+    text-align: center;
+}
+
+.icon-hr-line:before{
+    content: "=";
+
+}
+*/
+
+.documents a:hover{
+    text-decoration: underline;
+}
+
+#main{
+    padding-bottom: 7em;
+}
+
+#main-nav li{
+    border-left: 3px solid #448;
+    position: relative;
+}
+
+#main-nav .current, #main-nav .current:hover{
+    width: auto;
+    /*border: 1px solid gray;*/
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    background: #89c;
+    z-index: 2;
+}
+
+
+
+#main-nav li a{
+    display: block;
+    padding: 0.3em 0.8em;
+}
+
+#main-nav li a:hover{
+    background: #c5ddf9;
+}
+
+.nav h2{
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding:0;
+}
+
+
+.nav ul li a{
+    display: block;
+    background: #89c;
+    left: auto;
+    
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #89c;
+    text-align: center;
+}
+
+.nav ul li a:hover{
+    border: 1px solid black;
+}
+
+.nav ul li a{
+    margin-bottom: 5em;
+}
+
+.copyright{
+    text-align: center;
+    font-size: x-small;
+    /*margin: 0 0.5rem 0 -0.5rem !important;*/
+    /*padding: 0 0.5rem;*/
+    background: #bdc;
+    border-top: 1px solid #9ba;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+    position: relative;
+    
+    /*width: 99%;*/
+}
+
+#logo{
+    width: 4em;
+	height: 4em;
+	background: url("../img/lira.png") no-repeat center;
+	display: inline-block;
+    padding: 0;
+    margin: 2px;
+    background-size: contain;
+    float: left;
+}
+
+#logo_pmf{
+    width: 4em;
+	height: 4em;
+	background: url("../img/pmf-logo.png") no-repeat center;
+	display: inline-block;
+    padding: 0;
+    margin: 2px;
+    background-size: contain;
+    float: left;
+}
+
+#toggle {display: none;}
+
+.toggle {display: block;}
+
+#toggle:checked ~ nav #main-nav {
+    display: block;
+}
+
+#main-nav {
+    display: none;
+    float: right;
+    margin-top: 5em;
+	font-size: 1em;
+}
+
+#main-nav:hover{
+    display:block;
+}
+
+#main-nav:focus{
+    display: block;
+}
+
+#main-nav:active{
+    display:block;
+}
+
+
+/*#menu-icon:active + #main-nav{
+    display: block;
+}
+
+#menu-icon:hover + #main-nav{
+    display: block;
+}
+*/
+#menu-icon {
+    margin-top: 0.5em;
+    padding: 0;
+    margin-right: 1em;
+    float: right;
+    font-size: 2em;
+    text-align: right;
+    /*background: #4C8FEC url(../img/menu-icon.png) center;*/
+}
+
+#top-head{
+    background: #abd;
+    margin: 0 -0.5em ;
+    width: 100%;
+    padding: 0.2em 0.5em;
+}
+
+/*nav ul {
+    margin: 0;
+    padding: 0;    
+}*/
+
+.documents ul {
+    margin: 0;
+    padding: 0;
+}
+
+.documents li {
+    width: auto;
+    height: 25em;
+    margin-top: 2em !important;
+    margin-bottom: 4em !important;
+
+}
+
+.documents a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.documents a[href*="akreditacija%20nova"]{
+    background-image: url("../img/akreditacija.png");
+}
+
+.documents a[href*="politika%20kvaliteta"]{
+    background-image: url("../img/polkvaliteta.png");
+}
+
+.documents a[href*="sertifikat%20o%20akreditacij"]{
+    background-image: url("../img/akreditacijae.png");
+}
+
+.documents a[href*="A2.001%20Verzija%203%20-%20Politika%20kvaliteta"]{
+    background-image: url("../img/polkvalitetae.png");
+}
+
+fieldset{
+    margin: 1em 0 !important;
+    /*margin:1em !important;*/
+    position: relative;
+    /*padding: 1em;*/
+    text-align: center;
+}
+
+input,select,textarea{
+    margin:0 auto !important;
+    /*width: 90%;*/
+    max-width: 47em;
+}
+
+label{
+    position: relative;
+    line-height: 1em;
+    /*
+    padding: 0.2em;
+        */
+    display: block;
+    margin: 0 2em;
+    margin-top: 1em;
+    position: relative;
+    width: auto;
+    text-align: left;
+}
+
+.right {
+    right: 0;
+    position: relative;
+    display: block !important;
+    margin-right:0 !important;
+}
+
+.center{
+    text-align: center;
+}
+
+.s15{
+    width: 15em;
+}
+
+#nalog {
+    display: none;
+}
+
+#nalog.los{
+    display: block;
+    color: red;
+}
+
+#anketa {
+    display: none;
+}
+
+#anketa.los{
+    display: block;
+    color: red;
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+@media only screen and (min-width: 30em) and (max-width: 47.9em) {
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */    
+ 
+/*   .nav ul li a{
+            text-align: center;
+            background: #89c;
+            padding: 0px;
+            border: 0px;
+            border-radius: 0px;
+        
+        }
+        .nav ul li a:hover{
+            border: 0px solid black;
+        }   
+        body{background:#cdf;}
+        */
+
+        /* .nav ul li{
+        text-align: center;
+        background: #89c;
+        padding: 0px;
+        border: 0px;
+        border-radius: 0px;
+    
+        }
+        .nav ul li:hover{
+            border: 0px solid black;
+        }   
+        body{background:#cdf;} */
+}	
+
+/* #Tablet (Portrait) and bigger
+================================================== */
+@media only screen and (min-width: 48em) and (orientation : portrait){
+     #menu-icon {
+        display: none;
+    }
+
+    #main-nav {
+        display: block;
+        float:none;
+        margin-top: 12em;
+        padding: 0;
+        /*box-shadow:2px 2px 0.7em rgba(0,0,0,0.3);*/
+    }
+
+    #main{
+        border-left: 1px solid gray;
+    }
+    
+     #logo{
+        width: 45%;
+	    height: 8em;
+        margin: 2em 4%;
+        margin-left: 1%;
+    }
+    
+    #logo_pmf{
+        width: 45%;
+	    height: 8em;
+        margin: 2em 4%;
+        margin-right: 1%;
+    }
+
+    #top-head {
+        width: 22.5%;
+        background: none;
+    }
+    
+    #toggle, .toggle {display: none}
+
+    #main-nav .current:after, #main-nav .current:hover:after {
+        content:  '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 1em solid transparent;
+        border-left-color: #89c;
+        top: 0%;
+        left: 100%;
+        margin-left:0em;
+    }
+
+    fieldset{
+        border:  1px dotted black;
+        margin:1em !important;
+        position: relative;
+        padding: 1em;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+    }
+    
+    input,select,textarea{
+        margin:0 auto !important;
+        width: 90%;
+        max-width: 100em;
+    }
+    
+    legend{
+        background: #cdf;
+        width: 40%;
+        min-width: 14em;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid black;        
+    }
+
+    label{
+        position: relative;
+        line-height: 1em;
+        padding: 0.2em;
+        display: block;
+        margin: 0 2em;
+        margin-top: 1em;
+        position: relative;
+        width: auto;
+        text-align: left;
+    }
+
+    .left1{
+        left: 1em;
+    }
+
+    .left-1{
+        left: -1em;
+    }
+
+    .left2{
+        left: 2em;
+    }
+    
+}
+
+/* #Tablet (Landscape) and bigger
+================================================== */
+@media only screen and (min-width: 48em) and (orientation : landscape){
+    #menu-icon {
+        display: none;
+    }
+
+    #main-nav {
+        display: block;
+        float:none;
+        margin-top: 12em;
+        padding: 0;
+        /*box-shadow:2px 2px 0.7em rgba(0,0,0,0.3);*/
+    }
+    
+    #main{
+        border-left: 1px solid gray;
+    }
+
+    #logo{
+        width: 45%;
+	    height: 8em;
+        margin: 2em 4%;
+        margin-left: 1%;
+    }
+    
+    #logo_pmf{
+        width: 45%;
+	    height: 8em;
+        margin: 2em 4%;
+        margin-right: 1%;
+    }
+    
+    #top-head {
+        width: 22.5%;
+        background: none;
+    }
+    
+    #toggle, .toggle {display: none}
+
+    #main-nav .current:after, #main-nav .current:hover:after{
+        content:  '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 1em solid transparent;
+        border-left-color: #89c;
+        top: 0%;
+        left: 100%;
+        margin-left:0em;
+    }
+    
+    fieldset{
+        border:  1px dotted black;
+        margin:1em !important;
+        position: relative;
+        padding: 1em;
+        text-align: center;
+    }
+
+    input,select,textarea{
+        margin:0 auto !important;
+        width: 90%;
+        max-width: 100em;
+    }
+
+    label{
+        position: relative;
+        line-height: 1em;
+        padding: 0.2em;
+        display: block;
+        margin: 0 2em;
+        margin-top: 1em;
+        position: relative;
+        width: auto;
+        text-align: left;
+    }
+    
+    legend{
+        background: #cdf;
+        width: 80%;
+        width: 40%;
+        min-width: 14em;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid black;        
+    }
+
+    .left1{
+        left: 1em;
+    }
+
+    .left-1{
+        left: -1em;
+    }
+
+    .left2{
+        left: 2em;
+    }
+}
+
+
+
+	
+
+	
+	
+    /* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Playfair Display', serif;
+    color: #237;
+    line-height: 1.5em;
+    -webkit-font-feature-settings: "liga";
+}
+
+body,p{
+	font-family: 'Arimo', sans-serif;
+	color: #137;
+    text-shadow: 0 0px 1px rgba(16,48,117,0.5);
+    line-height: 1.5em;
+    -webkit-font-feature-settings: "liga";
+}
+
+/*
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+ =========== Better Font Rendering =========== 
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*/
+
+
+

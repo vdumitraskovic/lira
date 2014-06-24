@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="divider.svg"
+   inkscape:export-filename="C:\Users\Vladimir\Desktop\LIRA SAJT\V2.0\img\divider.png"
+   inkscape:export-xdpi="79.385544"
+   inkscape:export-ydpi="79.385544">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="509.95444"
+     inkscape:cy="829.32246"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="1,0"
+       position="50,972.85714"
+       id="guide2985" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="700,942.14286"
+       id="guide2987" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="375,804.28571"
+       id="guide2991" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="350,992.85714"
+       id="guide2993" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="400,972.85714"
+       id="guide2995" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="465,1001.4286"
+       id="guide2997" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="362.39223,1026.5675"
+       id="guide3003" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="387.3935,1010.1525"
+       id="guide3005" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="362.39223,1009.9"
+       id="guide3009" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="206.5762,992.47488"
+       id="guide3011" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.51546392"
+       d="m 50,51.862183 300,0"
+       id="path2989"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\Vladimir\Desktop\LIRA SAJT\V2.0\img\divider.png"
+       inkscape:export-xdpi="158.77109"
+       inkscape:export-ydpi="158.77109" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.51546392"
+       d="m 400,51.862183 300,0"
+       id="path2999"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Vladimir\Desktop\LIRA SAJT\V2.0\img\divider.png"
+       inkscape:export-xdpi="158"
+       inkscape:export-ydpi="158" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3.64157343000000020;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.51546389;stroke-dasharray:none"
+       d="m 355.7712,50.9424 c 0.22891,-3.539905 3.93079,-8.159572 9.55434,-8.159572 9.55304,0 9.99372,16.883601 19.80619,16.783709 5.44151,-0.05539 8.95497,-5.197805 8.88543,-8.624137 -0.067,-3.297506 -3.64832,-8.159572 -8.88543,-8.159572 -10.03722,0 -10.29074,16.783709 -19.70246,16.783709 -5.58635,0 -9.88535,-5.109554 -9.65807,-8.624137 z"
+       id="path3015"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssss"
+       inkscape:export-xdpi="158.77109"
+       inkscape:export-ydpi="158.77109"
+       inkscape:export-filename="C:\Users\Vladimir\Desktop\LIRA SAJT\V2.0\img\divider.png" />
+  </g>
+</svg>
