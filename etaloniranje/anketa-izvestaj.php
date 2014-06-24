@@ -4,7 +4,7 @@ $section = "anketa";
 
 $nalog = "lira";
 $lozinka = "lira";
-$lab = "ispitivanje";
+$lab = "etaloniranje";
 
 include 'inc/db.php';
 $sql = "SELECT * FROM `anketa` where `lab` = '" . $lab . "';";
