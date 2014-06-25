@@ -27,6 +27,7 @@ $sql = "SELECT * FROM `anketa` where `lab` = '" . $lab . "';";
     // print them one after another 
         echo "<div style='width:100%;overflow-x:auto'><table style='width:100%;font-size:80%' cellpadding=10 border=1>"; 
         echo "<thead><tr><th>Ime i prezime</th>".
+             "<th>Firma</th>".
              "<th>Telefon</th>".
              "<th>Email</th>".
              "<th>Usluge</th>".
@@ -40,6 +41,7 @@ $sql = "SELECT * FROM `anketa` where `lab` = '" . $lab . "';";
         while($row = $result->fetch()) { 
             echo "<tr>"; 
             echo "<td>".$row['ime i prezime']."</td>"; 
+            echo "<td>".$row['firma']."</td>"; 
             echo "<td>".$row['telefon']."</td>"; 
             echo "<td>".$row['email']."</td>"; 
             echo "<td>".$row['usluge']."</td>";

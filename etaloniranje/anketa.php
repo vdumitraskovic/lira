@@ -17,12 +17,13 @@ if (isset($_POST['username'])){
       elseif ((!isset($_POST['usluge'])) || (!isset($_POST['osoblje'])) || (!isset($_POST['brzina'])) || (!isset($_POST['izvestaj'])) || (!isset($_POST['dalje']))) { $anketa = "los"; } 
       else {
         $sql = "INSERT INTO `anketa` (`lab`,
-                `login_id`,`ime i prezime`,
+                `login_id`,`ime i prezime`,`firma`,
                 `telefon`,`email`,
                 `usluge`,`osoblje`,`brzina`,
                 `izvestaj`,`dalje`,`promene`,`unaprediti`)
                 VALUES (\"" . $lab . "\"," . $rows[0] .
                 ",\"" . $_POST['name'] .  "\",\"" . 
+                $_POST['firma'] .  "\",\"" .
                 $_POST['phone'] .  "\",\"" . 
                 $_POST['email'] .  "\",\"" . 
                 $_POST['usluge'] .  "\",\"" . 
@@ -64,7 +65,7 @@ if (isset($_POST['username'])){
                     <fieldset class="sixteen columns left-1">
                     <legend>Korisnički nalog</legend>
                         <div id="nalog" class="<?php echo $nalog; ?>">Neispravna lozinka ili korisničko ime!</div> 
-                        <label for="username">Korisničko ime:</label><input type="text" id="username" name="username" value="<?php if(isset($_POST['username'])){echo htmlspecialchars($_POST['username']);} ?>">
+                        <label for="username">Korisničko ime:</label><input type="text" id="username" name="username" value="<?php if(isset($_POST['username'])){echo htmlspecialchars($_POST['username']);} ?>" autofocus>
                         <label for="password">Lozinka:</label><input type="password" id="password" name="password" >
                     </fieldset>
                     </div>
@@ -73,6 +74,7 @@ if (isset($_POST['username'])){
                     <fieldset class="seven offset-by-one columns left1">
                     <legend>Lični podaci</legend>
                         <label for="name">Ime i prezime:</label><input type="text" id="name" name="name" value="<?php if(isset($_POST['name'])){echo htmlspecialchars($_POST['name']);} ?>">
+                        <label for="firma">Naziv firme:</label><input type="text" id="firma" name="firma" value="<?php if(isset($_POST['firma'])){echo htmlspecialchars($_POST['firma']);} ?>">
                         <label for="phone">Kontakt telefon:</label><input type="tel" id="phone" name="phone" value="<?php if(isset($_POST['phone'])){echo htmlspecialchars($_POST['phone']);} ?>">
                         <label for="email">Email:</label><input type="email" id="email" name="email" value="<?php if(isset($_POST['email'])){echo htmlspecialchars($_POST['email']);} ?>">
                     </fieldset>
